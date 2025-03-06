@@ -1,0 +1,62 @@
+.aboutContainer {
+    /* Centers the entire container horizontally on the page */
+    max-width: 1200px;    /* Adjust as needed */
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Center the main "About Us" heading */
+  .aboutContainer h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* 
+    aboutContent uses Flexbox for a two-column layout.
+    The columns will be side by side on wider screens and can stack on smaller screens if desired.
+  */
+  .aboutContent {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;           /* Space between columns */
+    justify-content: flex-start; /* Align columns to the left */
+    align-items: flex-start;     /* Align columns at the top */
+    text-align: left;            /* Left-align text within columns */
+  }
+  
+  /* Left Column */
+  .leftColumn {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .leftColumn h2 {
+    margin-bottom: 15px;
+  }
+  
+  .leftColumn p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Right Column */
+  .rightColumn {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .rightColumn h2 {
+    margin-bottom: 15px;
+  }
+  
+  .rightColumn p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .rightColumn ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  

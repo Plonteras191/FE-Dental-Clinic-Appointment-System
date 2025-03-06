@@ -1,5 +1,5 @@
 .nav {
-  background: rgb(56, 54, 54);
+  background: rgb(56, 54, 54, 0.8);
   padding: 20px 10px;
   display: flex;
   justify-content: space-around;
