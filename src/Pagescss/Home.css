@@ -1,0 +1,30 @@
+.homeContainer {
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  
+  min-height: 100vh;  
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Georgia, serif';
+  
+  
+  color: #000; 
+  position: relative;
+  
+ 
+  background-color: #f5f5f5;
+}
+
+
+
+.bookButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

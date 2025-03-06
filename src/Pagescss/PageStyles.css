@@ -1,5 +1,5 @@
-.pageContainer {
+.container {
+  text-align: center;
   padding: 20px;
-  padding-top: 80px;
   font-family: Arial, sans-serif;
 }
